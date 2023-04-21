@@ -1,0 +1,7 @@
+services:
+  container1:
+    build: ../5part/.
+  container2:
+    build: .
+    ports:
+    - "80:8080"
